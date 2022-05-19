@@ -1,0 +1,32 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--19467703:17c38f002f5:-7ff6</id>
+  <name>hybrid-local</name>
+  <mode>SINGLE</mode>
+  <title>hybrid-local</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--2e782093:17112b62ada:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-1620676e:180d80a7122:-7949</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-1620676e:180d80a7122:-7ef3</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-180.0</minx>
+    <maxx>180.0</maxx>
+    <miny>-85.05999999999999</miny>
+    <maxy>85.05999999999999</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

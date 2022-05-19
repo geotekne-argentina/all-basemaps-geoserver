@@ -1,0 +1,15 @@
+<layer>
+  <name>satellite-local</name>
+  <id>LayerInfoImpl-1620676e:180d80a7122:-7949</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-1620676e:180d80a7122:-794a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

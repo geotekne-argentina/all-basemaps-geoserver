@@ -1,0 +1,17 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl-1620676e:180d80a7122:-7ef5</id>
+  <name>geoserver-osm-transparent</name>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--2e782093:17112b62ada:-7fff</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <capabilitiesURL>http://geoserver-osm-transparent:8080/geoserver/ows?service=wms&amp;version=1.1.1&amp;request=GetCapabilities</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>
