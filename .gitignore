@@ -2,3 +2,6 @@ data/geoserver/data_dir_basemaps/cluster
 data/geoserver/data_dir_osm_transparent/cluster
 data/geoserver/data_dir_osm_opaque/cluster
 data/geoserver/data_dir_satellite/cluster
+*.zip
+data/geoserver/**/README.txt
+data/geoserver/**/*.gpkg
