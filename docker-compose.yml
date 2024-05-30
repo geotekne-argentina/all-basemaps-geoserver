@@ -76,6 +76,16 @@ services:
       - "5432:5432"
     restart: on-failure
 
+  imposm-worker:
+    image: 'geotekne/imposm-worker:1.0.0'
+    hostname: imposm-worker
+    environment:
+      - PARAMETERS=-i /pbfs -c all-basemaps-geoserver_postgis -v 12.1 -p 5432 -u docker -w docker -d gis
+    volumes:
+      - './pbfs/:/pbfs'
+    depends_on:
+      - postgis-osm
+
 volumes: 
      pgdata:
 
