@@ -18,7 +18,7 @@ if [ ! -f "$FILE" ]; then
     echo -e "\n ----- Download Selected ROI - High Resolution Satellite dataset -----"
     curl -k $SAT_URL -o ./data/geoserver/data_dir_satellite/coverages/gpkg/selection-11-to-15.zip
     unzip -o ./data/geoserver/data_dir_satellite/coverages/gpkg/selection-11-to-15.zip -d ./data/geoserver/data_dir_satellite/coverages/gpkg/
-    mv ./data/geoserver/data_dir_satellite/coverages/gpkg/$SAT_FILENAME ./data/geoserver/data_dir_satellite/coverages/gpkg/selection-11-to-15.gpkg
+    mv ./data/geoserver/data_dir_satellite/coverages/gpkg/$SAT_FILENAME.gpkg ./data/geoserver/data_dir_satellite/coverages/gpkg/selection-11-to-15.gpkg
 fi
 
 # Download my Selection PBF (defined in config.sh file)
